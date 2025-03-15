@@ -6,13 +6,13 @@ export default function AppHeader() {
 
                 <div className="left-menu">
 
-                    <NavLink className='text-decoration-none text-light'>
+                    <NavLink to={'/'} className='text-decoration-none text-light'>
                         <span>LOGO</span>
                     </NavLink>
 
                 </div>
                 <div className="right-menu text-decoration-none text-light">
-                    <NavLink className='text-decoration-none text-light ms-5'>
+                    <NavLink to={'/'} className='text-decoration-none text-light ms-5'>
                         <span>Home</span>
                     </NavLink>
                     <NavLink className='text-decoration-none text-light ms-5'>
