@@ -1,12 +1,16 @@
-# React + Vite
+# Esercitazione Bonus - Utilizzo API Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questa è un'esercitazione bonus che sfrutta l'API creata in precedenza per il portfolio, disponibile [qui](https://github.com/Gabriele-Viola/laravel-portfolio). L'applicazione frontend è realizzata con **React** e **Bootstrap**, e permette di interagire con i dati del portfolio tramite gli endpoint dell'API, visualizzando progetti e altre informazioni in modo dinamico.
 
-Currently, two official plugins are available:
+## Tecnologie utilizzate
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Framework JavaScript utilizzato per la creazione dell'interfaccia utente dinamica e interattiva.
+- **Bootstrap**: Utilizzato per progettare un'interfaccia utente responsive e moderna, migliorando l'aspetto estetico e la facilità d'uso.
+- **API Backend**: L'applicazione comunica con un'API backend sviluppata in **Laravel** (vedi [repository del backend](https://github.com/Gabriele-Viola/laravel-portfolio)) per recuperare i dati relativi ai progetti e al portfolio.
 
-## Expanding the ESLint configuration
+## Funzionalità principali
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Visualizzazione progetti**: Mostra un elenco di progetti del portfolio recuperati tramite gli endpoint dell'API.
+- **Interazione dinamica**: Gli utenti possono interagire con l'applicazione, visualizzando dettagli aggiuntivi sui singoli progetti in modo dinamico.
+- **Interfaccia responsiva**: Grazie all'uso di **Bootstrap**, l'applicazione è completamente responsiva e ottimizzata per dispositivi desktop, tablet e mobile.
+
